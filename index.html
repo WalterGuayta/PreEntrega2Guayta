@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Carrito de Compras</h1>
+
+    <div id="productos">
+        <h2 class="titulo2">Productos disponibles</h2>
+
+        <ul id="listaNO">
+            <img class="bermuda" src="./img/bermuda.jpg" alt="pantalon-bermuda">
+            <button class="boton"><li data-id="1" data-nombre="Producto 1" data-precio="100.00">Agregar Producto 1 Precio $100.00  </li>  </button>
+            <img class="camisa" src="./img/camisa.jpg" alt="camisa">
+           <button class="boton" > <li data-id="2" data-nombre="Producto 2" data-precio="250.00">Agregar Producto 2 Precio $250.00</li>
+           </button>
+           <img class="gorras" src="./img/gorras.jpg" alt="gorra">
+           <button class="boton"> <li data-id="3" data-nombre="Producto 3" data-precio="400.00">Agregar Producto 3 Precio $400.00</li> </button>
+        </ul>
+
+    </div>
+      
+      <div id="carrito">
+        <h2>Carrito de compras:</h2>
+        <ul id="items-carrito"></ul>
+        <p>Total: $<span id="total"></span></p>
+      </div>
+      <script src="main.js"></script>
+    </body>
+    </html>

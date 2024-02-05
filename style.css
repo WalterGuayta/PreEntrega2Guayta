@@ -1,0 +1,78 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo2{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+#listaNO{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 30px;
+    padding: 10px;
+}
+
+.boton{
+    width: 250px;
+    height: 50px;
+    background-color: aqua;
+}
+.producto {
+    width: 250px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+#carrito {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#vaciar-carrito {
+    margin-top: 10px;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-carrito li {
+    margin-bottom: 10px;
+}
+
+#lista-carrito img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.imagen {
+    width: 200px;
+}
+
+.bermuda{
+    width: 100px;
+}
+.camisa{
+    width: 100px;
+}
+.gorras{
+    width: 100px;
+}
